@@ -1,0 +1,96 @@
+
+body,html {
+  font-family: 'Abel', sans-serif;
+  color:#846C63;
+}
+
+body {
+  background-color: #F6F4F1!important;
+}
+
+a {
+  color:#88AAA9!important;
+}
+
+.btn {
+  margin:2px;
+}
+.btn, .btn-large {
+  background-color:#86A8A8!important;
+  color:white !important;
+}
+.brand-logo {
+  color:#846C63 !important;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  left:50px;
+}
+.icon {
+  position: absolute;
+  padding-top: 13px;
+  margin-right: 5px;
+}
+
+.area {
+  font-size: 12px;
+  line-height: 0.75rem;
+}
+.card .card-title {
+  font-size: 20px;
+}
+
+.card-image {
+
+  overflow: hidden;
+
+  width: 100%;
+
+  position: relative;
+
+}
+
+.card-image:before {
+
+  content: '';
+
+  display: block;
+
+  padding-bottom: 75%;
+
+}
+
+.team-member .card-image:before {
+
+  padding-bottom: 100%;
+
+}
+
+.card-image > * {
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+.card .card-content {
+  min-height: 105px;
+}
+.card .card-content .card-title {
+  line-height: 22px;
+  padding-top: 10px;
+}
+.title {
+  color:#846C63!important;
+  text-transform: uppercase;
+}
+
+.card-title {
+  text-transform: uppercase;
+}
+.card .card-action a {
+  color: white!important;
+  
+}
